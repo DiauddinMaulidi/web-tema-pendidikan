@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(172, 169, 169);
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+button {
+  padding: 5px 10px;
+  margin: 2px;
+}

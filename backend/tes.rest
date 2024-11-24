@@ -1,0 +1,43 @@
+GET http://localhost:8000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIxLCJ1c2VyTmFtZSI6ImFsZXhhIiwidXNlckVtYWlsIjoiYWxleGFAZ21haWwuY29tIiwiaWF0IjoxNzI3NzQxMDQzLCJleHAiOjE3Mjc3NDEwNjN9.kY4N0Mn2VJZYR_A3t6mvicHSsjEHwjOikY7Fy-WynJk
+
+
+###
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "name": "retno",
+    "email": "alexa@gmail.com",
+    "password": "123456789",
+    "confPassword": "123456789"
+}
+
+###
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email": "alexa@gmail.com",
+    "password": "123456789"
+}
+
+###
+GET http://localhost:8000/token
+
+###
+DELETE  http://localhost:8000/logout
+
+
+###
+POST http://localhost:8000/data
+Content-Type: application/json
+
+{
+    "nama_barang": "baju",
+    "tanggal_masuk": "2024-10-03",
+    "stok": 3
+}
+
+###
+GET http://localhost:8000/data

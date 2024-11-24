@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+.tes {
+  max-height: 0px;
+  overflow: hidden;
+  opacity: 0;
+  will-change: overflow;
+  transition: all 1s ease-in-out;
+}
+
+.tes.rotasi {
+  opacity: 1;
+  max-height: 700px;
+}
