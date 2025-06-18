@@ -47,3 +47,10 @@ Proyek **Web Tema Pendidikan** ini dikembangkan dengan tujuan:
 cd backend
 npm install
 npm run dev
+```
+### 2. Jalankan Frontent
+```bash
+cd frontend
+npm install
+npm run dev
+```
